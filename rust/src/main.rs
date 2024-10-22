@@ -1,3 +1,5 @@
+mod mutable;
+
 fn main() {
     let x = 14;
     println!("{}", x);
@@ -12,5 +14,6 @@ fn main() {
     let y;
     y = "Hello World";
 
-    println!("{}", y)
+    println!("{}", y);
+    mutable::test_mutable()
 }
